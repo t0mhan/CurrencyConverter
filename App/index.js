@@ -1,5 +1,8 @@
+// react
 import React from "react";
-import Options from "./screens/Options";
 
-const Index = () => <Options />;
+// app
+import Home from "./screens/Home";
+
+const Index = () => <Home />;
 export default Index;

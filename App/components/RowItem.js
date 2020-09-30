@@ -1,15 +1,17 @@
-import React from 'react';
-import { StyleSheet, TouchableOpacity, Text, View } from 'react-native';
+// react
+import React from "react";
+import { StyleSheet, TouchableOpacity, Text, View } from "react-native";
 
-import colors from '../constants/colors';
+// app
+import colors from "../constants/colors";
 
 const styles = StyleSheet.create({
   row: {
     paddingHorizontal: 20,
     paddingVertical: 16,
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    flexDirection: 'row',
+    justifyContent: "space-between",
+    alignItems: "center",
+    flexDirection: "row",
     backgroundColor: colors.white,
   },
   title: {
