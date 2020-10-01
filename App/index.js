@@ -1,14 +1,9 @@
-// react
 import React from "react";
-
-// app
-import Home from "./screens/Home";
 import Navigation from "./config/Navigation";
+import { ConversionContextProvider } from "./util/ConversionContext";
 
-const navigation = () => <Navigation />;
-export default navigation;
-
-/*
-const Index = () => <Home />;
-export default Index;
-*/
+export default () => (
+  <ConversionContextProvider>
+    <Navigation />
+  </ConversionContextProvider>
+);
